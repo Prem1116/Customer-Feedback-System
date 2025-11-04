@@ -56,8 +56,8 @@ The project uses **exception handling**, **logging**, and **unit testing** to ma
 
 **=== Welcome to Customer Feedback System ===**
 
-[2025-11-03 10:25:45] [INFO] Database Connected Successfully!
-[2025-11-03 10:25:46] [INFO] Customer Inserted Successfully!
+[2025-11-03 10:25:45] [INFO] Database Connected Successfully!<br>
+[2025-11-03 10:25:46] [INFO] Customer Inserted Successfully!<br>
 
 Customer{id=1, name='TonyStark', email='tony@gmail.com', phone='7896541032', gender='Male', createdAt=2025-11-03 10:25:46.000}
 
