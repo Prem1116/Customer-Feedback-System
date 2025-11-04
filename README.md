@@ -8,7 +8,7 @@
 ## 📘 Overview
 The *Customer Feedback System* is a Java and MySQL-based application designed to collect, manage, and analyze customer feedback for different products.  
 It performs all *CRUD operations* (Create, Read, Update, Delete) on customers, products, and feedback modules, ensuring smooth and efficient data handling.  
-The project uses *exception handling, **logging, and **unit testing* to maintain reliability and prevent runtime issues.
+The project uses *exception handling*, *logging*, and *unit testing* to maintain reliability and prevent runtime issues.
 
 ---
 
