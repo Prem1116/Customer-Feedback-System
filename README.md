@@ -32,9 +32,9 @@ The project uses *exception handling, **logging, and **unit testing* to maintain
 
 ## 🧩 ER Diagram
 *Entities:*
-- Customer(customer_id, name, email, phone, gender)
-- Product(product_id, name, description, price)
-- Feedback(feedback_id, message, rating, customer_id, product_id)
+- Customer(customer_id, name, email, phone, gender, created_at)
+- Product(product_id, name, description, price, created_at)
+- Feedback(feedback_id, message, rating, feedback_date, customer_id, product_id)
 
 *Relationships:*
 - One customer can give feedback for many products  
@@ -52,15 +52,17 @@ The project uses *exception handling, **logging, and **unit testing* to maintain
 
 ---
 
-## 🖥 Sample Console Output
+## 🖥 Sample Console Output
+
 === Welcome to Customer Feedback System ===
 
-[INFO] Database Connected Successfully! Customer Inserted Successfully!
+[2025-11-03 10:25:45] [INFO] Database Connected Successfully!
+[2025-11-03 10:25:46] [INFO] Customer Inserted Successfully!
 
-Customer{id=1, name='Prem', email='prem@gmail.com', phone='97908*****', gender='Male'}
+Customer{id=1, name='Tonystark', email='tony@gmail.com', phone='7896541032', gender='Male', createdAt=2025-11-03 10:25:46.000}
 
-💬 This output confirms a successful database connection and insertion operation.  
-💡 LoggerUtil is used to log messages for debugging and tracking.
+💬 This output confirms a successful database connection and insertion operation with timestamped logs.  
+💡 LoggerUtil automatically generates log timestamps for tracking and debugging.
 
 ---
 
